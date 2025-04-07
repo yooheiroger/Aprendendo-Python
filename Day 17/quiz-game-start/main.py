@@ -35,6 +35,7 @@ while game_on:
     end_game = quiz_game.last_question(question_bank)
     if end_game:
         break
+    print('-'*50)
 
 
 
